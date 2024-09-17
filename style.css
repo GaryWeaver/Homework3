@@ -29,3 +29,26 @@
     font-size: 1.3em;
     color: #840000;
 }
+
+.item4 p {
+    color: #989797;
+    text-align: left;
+    padding: 15px;
+}
+
+.download-btn {
+    display: block;
+    width: calc(100% - 40px);
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #0056b3; 
+}
